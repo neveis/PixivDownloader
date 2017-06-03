@@ -1,5 +1,5 @@
 # PixivDownloader
-Pixiv下载器
+[Pixiv下载器](https://github.com/neveis/PixivDownloader/releases)
 
 下载P站指定id的插图（包括漫画）。
 
@@ -70,3 +70,7 @@ Pixiv下载器
 
 注：排行榜类型、内容、日期来自于实际的网页地址，因此并不限于上面所提到的，可以观察下实际地址根据所需设置。
 ```
+
+因为使用到了Windows控制台的API，因此如果不做修改，只支持Windows下使用。相关API封装在`utlis.py`文件中。
+
+使用了PyInstaller打包了可运行程序，[下载地址](https://github.com/neveis/PixivDownloader/releases)。
